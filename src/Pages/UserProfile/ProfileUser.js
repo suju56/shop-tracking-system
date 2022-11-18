@@ -30,7 +30,7 @@ export const ProfileUser = () => {
               cursor="pointer"
             />
           </Center>
-          <Box p="0 16rem">
+          <Box p="0 16rem 5rem 16rem">
             <InputField label="Full Name" type="text" inputId="full_name" />
             <InputField label="Address" type="address" inputId="address" />
             <InputField label="Phone Number" type="number" inputId="phone" />

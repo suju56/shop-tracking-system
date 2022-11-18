@@ -31,7 +31,7 @@ export const ShopItemSlider = () => {
       <Box textAlign=" -webkit-center">
         <Image
           alt="sale"
-          src={process.env.PUBLIC_URL + "//Image/donet.jpg"}
+          src={process.env.PUBLIC_URL + "/Image/donet.jpg"}
           h="16rem"
           w="14rem"
         />
@@ -55,7 +55,7 @@ export const ShopItemSlider = () => {
       <Box textAlign=" -webkit-center">
         <Image
           alt="sale"
-          src={process.env.PUBLIC_URL + "//Image/sandwitch.jpg"}
+          src={process.env.PUBLIC_URL + "/Image/sandwitch.jpg"}
           h="16rem"
           w="14rem"
         />

@@ -7,6 +7,10 @@ import { Footer } from "../../Component/Footer";
 import { Nav } from "../../Component/Nav";
 import { ShopItemSlider } from "./ShopItemSlider";
 
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { render } from "react-dom";
+const position = [51.505, -0.09];
+
 export const Shoppage = () => {
   return (
     <Box w="80%">
@@ -18,8 +22,8 @@ export const Shoppage = () => {
         </Center>
         <Flex>
           <Box></Box>
-          <Spacer/>
-          <Button bg={"#9f6975"} borderRadius="2rem" >
+          <Spacer />
+          <Button bg={"#9f6975"} borderRadius="2rem">
             <MdFavoriteBorder />
           </Button>
         </Flex>
@@ -97,3 +101,17 @@ export const Shoppage = () => {
     </Box>
   );
 };
+
+render(
+  <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
+    <TileLayer
+      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    />
+    <Marker position={position}>
+      <Popup>
+        A pretty CSS3 popup. <br /> Easily customizable.
+      </Popup>
+    </Marker>
+  </MapContainer>
+);
