@@ -26,7 +26,7 @@ export const ServicerSidebar = () => {
             <Search2Icon w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Search</Text>
           </Flex>
         </Link>
-        <Link to="">
+        <Link to="/">
           <Flex m={"2rem 2rem 2rem 0 "}>
             <CgHome w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Home</Text>
           </Flex>

@@ -19,7 +19,7 @@ export const Sidebar = () => {
             <StarIcon w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Favourate</Text>
           </Flex>{" "}
         </Link>
-        <Link to="/Shop-category;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+        <Link to="/Shop-category">
           <Flex m={"2rem 2rem 2rem 0 "}>
             <Search2Icon w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Search</Text>
           </Flex>

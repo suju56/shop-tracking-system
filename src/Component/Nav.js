@@ -13,7 +13,7 @@ export const Nav = () => {
       mb=".5rem"
     >
       <Box>
-        <Link to="">
+        <Link to="/">
           <Flex>
             Shop
             <Box m=".5rem 0 0 1rem">
