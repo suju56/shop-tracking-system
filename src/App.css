@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.slick-slide img {
+  padding: 1.5rem;
 }
+.slick-slider {
+  width: 69rem;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #f5f0f0;
+}
+.css-onkibi {
+  width: 2em;
+  height: 2em;}
