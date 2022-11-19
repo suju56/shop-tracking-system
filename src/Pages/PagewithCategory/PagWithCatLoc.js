@@ -5,7 +5,7 @@ import { BreadCrumb } from "../../Component/BreadCrump";
 import { Footer } from "../../Component/Footer";
 import { ShopList } from "../../Component/ShopList";
 
-export const ShopwithCatLoc = () => {
+export const PagWithCatLoc = () => {
   return (
     <Box w="80%">
       <Nav />

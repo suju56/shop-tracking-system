@@ -29,7 +29,7 @@ export const Register = () => {
               </Text>
               <Select placeholder="Choose to log in" mt={".5rem"} bg="gray.300">
                 <option value="option1">User</option>
-                <option value="option2">Service Provider</option>
+                <option value="option2">Shop Owner</option>
               </Select>
             </Box>
             <InputField label="Full Name" type="text" inputId="full_name" />

@@ -1,15 +1,16 @@
 import { Box, Center, Grid, GridItem, Image, Input } from "@chakra-ui/react";
 import React from "react";
 import { InputField } from "../../Component/InputField";
+import { ShopMap } from "../../Component/ShopMap";
 import { NavBar } from "../UserProfile/NavBar";
-import { ServicerSidebar } from "./ServicerSidebar";
+import { ShopOwnerSidebar } from "./ShopOwnerSidebar";
 
-export const ServiceProfile = () => {
+export const ShopOwnerProfile = () => {
   return (
     <Box>
       <Grid templateColumns={"1fr 4fr"}>
         <Box bg="#413232" color="white" p="3rem">
-          <ServicerSidebar />
+          <ShopOwnerSidebar />
         </Box>
         <Box>
           <NavBar />
@@ -42,8 +43,15 @@ export const ServiceProfile = () => {
             </GridItem>
             <GridItem p="2rem 0 4rem 0">
               <Center color={"white"} as="b">
-                Near by Famous Place
+                Location
               </Center>
+              <Box>
+              <InputField label="Longitude" type="text" inputId="City" />
+              <InputField label="Latitute" type="text" inputId="City" />
+              </Box>
+              <Box m="1rem 0 0">
+                <ShopMap />
+              </Box>
             </GridItem>
           </Grid>
         </Box>

@@ -5,7 +5,7 @@ import { CgProfile, CgHome } from "react-icons/cg";
 import { AiFillShop } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-export const ServicerSidebar = () => {
+export const ShopOwnerSidebar = () => {
   return (
     <Box>
       <HamburgerIcon />
@@ -21,7 +21,7 @@ export const ServicerSidebar = () => {
             <Text m={"-0.2rem 0 0 .5rem"}>About Shop</Text>
           </Flex>
         </Link>
-        <Link to="/Shop-category;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ">
+        <Link to="/Shop-category">
           <Flex m={"2rem 2rem 2rem 0 "}>
             <Search2Icon w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Search</Text>
           </Flex>

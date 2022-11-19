@@ -1,7 +1,7 @@
 import { Box, Center, Grid } from "@chakra-ui/react";
 import React from "react";
 import { ShopList } from "../../Component/ShopList";
-import { ServicerSidebar } from "../ServicerProfile/ServicerSidebar";
+import { Sidebar } from "../../Component/Sidebar";
 import { NavBar } from "./NavBar";
 
 export const Favourate = () => {
@@ -9,7 +9,7 @@ export const Favourate = () => {
     <Box w="80%">
       <Grid templateColumns={"1fr 4fr"}>
         <Box bg="#413232" color="white" p="3rem">
-          <ServicerSidebar />
+          <Sidebar />
         </Box>
         <Box>
           <NavBar />

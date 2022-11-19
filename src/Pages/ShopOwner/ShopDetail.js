@@ -2,7 +2,8 @@ import { Box, Center, Flex, Grid, Image, Input } from "@chakra-ui/react";
 import { Select, Spacer, Text, Textarea } from "@chakra-ui/react";
 import React from "react";
 import { InputField } from "../../Component/InputField";
-import { ServicerSidebar } from "../ServicerProfile/ServicerSidebar";
+import { Sidebar } from "../../Component/Sidebar";
+import { ShopItemSlider } from "../Shop/ShopItemSlider";
 import { NavBar } from "../UserProfile/NavBar";
 
 export const ShopDetail = () => {
@@ -10,7 +11,7 @@ export const ShopDetail = () => {
     <Box>
       <Grid templateColumns={"1fr 4fr"}>
         <Box bg="#413232" color="white" p="3rem">
-          <ServicerSidebar />
+          <Sidebar />
         </Box>
         <Box>
           <NavBar />
@@ -66,11 +67,24 @@ export const ShopDetail = () => {
                   bg="gray.300"
                   w={"22rem"}
                 >
-                  <option value="option1">User</option>
-                  <option value="option2">Service Provider</option>
+                  <option value="option1">Cafa And Resturent</option>
+                  <option value="option2">Hospital</option>
+                  <option value="option2">Vehicle Shop</option>
+                  <option value="option2">Bakery</option>
                 </Select>
               </Box>
             </Flex>
+            <Box p="2rem 0">
+              <Center color={"white"} as="b">
+                Description
+              </Center>
+              <Textarea
+                placeholder="Description of Location"
+                bg={"white"}
+                h="15rem"
+                borderRadius={"2rem"}
+              />
+            </Box>
             <Box p="2rem 0">
               <Center color={"white"} as="b">
                 About Us
@@ -82,8 +96,21 @@ export const ShopDetail = () => {
                 borderRadius={"2rem"}
               />
             </Box>
+            <Box p="2rem 0">
+              <Center color={"white"} as="b">
+                Service Provide
+              </Center>
+              <Textarea
+                placeholder="Description of the Service which shope Provide"
+                bg={"white"}
+                h="15rem"
+                borderRadius={"2rem"}
+              />
+            </Box>
             <Box>
-              <Center color={"white"} as="b">Upload Pictures of Services</Center>
+              <Center color={"white"} as="b">
+                Upload Pictures of Services
+              </Center>
               <Input
                 accept="image/png, image/jpeg"
                 id="upfile"
@@ -91,14 +118,7 @@ export const ShopDetail = () => {
                 type="file"
                 // onChange={handleUpload}
               />
-              <Image
-                alt="sale"
-                src={process.env.PUBLIC_URL + "/Image/Main-Dining-Room.webp"}
-                w="35rem"
-                h={"25rem"}
-                objectFit="cover"
-                cursor="pointer"
-              />
+              <ShopItemSlider />
             </Box>
           </Box>
         </Box>

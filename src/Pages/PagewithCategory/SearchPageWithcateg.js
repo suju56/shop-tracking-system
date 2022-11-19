@@ -7,7 +7,7 @@ import { ShopList } from "../../Component/ShopList";
 import { Search } from "../../Component/Search";
 import { Link } from "react-router-dom";
 
-export const Shopwithcateg = () => {
+export const SearchPageWithcateg = () => {
   return (
     <Box w="80%">
       <Nav />
