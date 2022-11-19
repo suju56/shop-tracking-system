@@ -1,5 +1,5 @@
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import { Box } from "@chakra-ui/react";
+import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 
 import L from 'leaflet';
@@ -14,8 +14,9 @@ let DefaultIcon = L.icon({
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
-export const ShopMap = () => {
+export default function ShopMap() {
   const position = [51.505, -0.09]
+
 
   return (
     <Box h={420}>
@@ -31,5 +32,6 @@ export const ShopMap = () => {
         </Marker>
       </MapContainer>
     </Box>
+
   );
 }

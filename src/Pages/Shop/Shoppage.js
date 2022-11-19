@@ -5,7 +5,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { BreadCrumb } from "../../Component/BreadCrump";
 import { Footer } from "../../Component/Footer";
 import { Nav } from "../../Component/Nav";
-import {ShopMap} from "../../Component/ShopMap";
+import { ShopMap } from "../../Component/ShopMap";
 import { ShopItemSlider } from "./ShopItemSlider";
 
 
@@ -91,10 +91,11 @@ export const Shoppage = () => {
           </Box>
         </Box>
       </Box>
+      <ShopMap />
       <Box m="5rem">
         <ShopItemSlider />
       </Box>
-      <ShopMap/>
+      <ShopMap />
 
       <Footer />
     </Box>
