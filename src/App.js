@@ -8,15 +8,15 @@ import "./App.css";
 
 import { Home } from "./Pages/Home/Home";
 import { LogIn } from "./Pages/logIn/LogIn";
-import { Searchshop } from "./Pages/SeaechShop/Searchshop";
+import { Searchshop } from "./Pages/Category/Category";
 import { AboutUs } from "./Pages/Aboutus/AboutUs";
-import { ShopwithCatLoc } from "./Pages/ShopwithCatLoc/ShopWithCatLoc";
-import { Shopwithcateg } from "./Pages/ShopwithCatLoc/Shopwithcateg";
+import { ShopwithCatLoc } from "./Pages/PagewithCategory/PagWithCatLoc";
+import { Shopwithcateg } from "./Pages/PagewithCategory/SearchPageWithcateg";
 import { Shoppage } from "./Pages/Shop/Shoppage";
 import { Register } from "./Pages/Register/Register";
 import { ProfileUser } from "./Pages/UserProfile/ProfileUser";
 import { ServiceProfile } from "./Pages/ServicerProfile/ServiceProfile";
-import { ShopDetail } from "./Pages/servicerShopDetail/ShopDetail";
+import { ShopDetail } from "./Pages/ShopOwner/ShopDetail";
 import { Favourate } from "./Pages/UserProfile/Favourate";
 
 function App() {
@@ -39,6 +39,7 @@ function App() {
             <Route path="/Shop-Catogery-Location" element={<ShopwithCatLoc />} />
             <Route path="/Shop-category" element={<Shopwithcateg />} />
             <Route path="/Shop-Page" element={<Shoppage />} />
+
 
             {/* user */}
             

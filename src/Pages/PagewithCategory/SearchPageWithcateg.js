@@ -11,9 +11,10 @@ export const Shopwithcateg = () => {
   return (
     <Box w="80%">
       <Nav />
-      <BreadCrumb />
-      <Link to="/Shop-Catogery-Location"><Search placeholderforSearch="Location of Shop" mtforsearch="1rem" /></Link>
-      
+      <BreadCrumb Category="Cafa And Resturent"/>
+      <Link to="/Shop-Catogery-Location">
+        <Search placeholderforSearch="Location of Shop" mtforsearch="1rem" />
+      </Link>
       <Box m="5rem 0">
         <ShopList />
       </Box>

@@ -1,4 +1,4 @@
-import { Box, Grid } from "@chakra-ui/react";
+import { Box, Center, Grid } from "@chakra-ui/react";
 import React from "react";
 import { ShopList } from "../../Component/ShopList";
 import { ServicerSidebar } from "../ServicerProfile/ServicerSidebar";
@@ -13,6 +13,9 @@ export const Favourate = () => {
         </Box>
         <Box>
           <NavBar />
+          <Center fontSize={"3xl"} as="b" m={"3rem"} color="white">
+            Favourate
+          </Center>
           <Box m="2rem">
             <ShopList />
           </Box>
@@ -21,4 +24,3 @@ export const Favourate = () => {
     </Box>
   );
 };
-    

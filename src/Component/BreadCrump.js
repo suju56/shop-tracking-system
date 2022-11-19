@@ -3,29 +3,33 @@ import { Box, Breadcrumb } from "@chakra-ui/react";
 import React from "react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
-export const BreadCrumb = () => {
+export const BreadCrumb = ({ Area, Category, Street, City }) => {
   return (
     <Box p={"2rem"} color="white">
-        <Breadcrumb
-          spacing="8px"
-          separator={<ChevronRightIcon color="gray.500" />}
-        >
-          <BreadcrumbItem>
-            <BreadcrumbLink href="#">Shop Category</BreadcrumbLink>
-          </BreadcrumbItem>
+      <Breadcrumb
+        spacing="8px"
+        separator={<ChevronRightIcon color="gray.500" />}
+      >
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#">ShopCategory</BreadcrumbLink>
+        </BreadcrumbItem>
 
-          <BreadcrumbItem>
-            <BreadcrumbLink href="#">Cafa and resturent</BreadcrumbLink>
-          </BreadcrumbItem>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="#">{Category}</BreadcrumbLink>
+        </BreadcrumbItem>
 
-          <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink href="#">Balajuheight</BreadcrumbLink>
-          </BreadcrumbItem>
+        <BreadcrumbItem isCurrentPage>
+          <BreadcrumbLink href="#">{City}</BreadcrumbLink>
+        </BreadcrumbItem>
 
-          <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink href="#">Balaju</BreadcrumbLink>
-          </BreadcrumbItem>
-        </Breadcrumb>
+        <BreadcrumbItem isCurrentPage>
+          <BreadcrumbLink href="#">{Area}</BreadcrumbLink>
+        </BreadcrumbItem>
+
+        <BreadcrumbItem isCurrentPage>
+          <BreadcrumbLink href="#">{Street}</BreadcrumbLink>
+        </BreadcrumbItem>
+      </Breadcrumb>
     </Box>
   );
 };

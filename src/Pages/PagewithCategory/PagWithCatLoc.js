@@ -9,9 +9,14 @@ export const ShopwithCatLoc = () => {
   return (
     <Box w="80%">
       <Nav />
-      <BreadCrumb />
+      <BreadCrumb
+        Category="Cafa And Resturent"
+        City="Kathmandu"
+        Area="Balauj"
+        Street="Balajuhight"
+      />
       <Box m="5rem 0">
-        <ShopList/>
+        <ShopList />
       </Box>
       <Footer />
     </Box>

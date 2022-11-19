@@ -5,15 +5,19 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { BreadCrumb } from "../../Component/BreadCrump";
 import { Footer } from "../../Component/Footer";
 import { Nav } from "../../Component/Nav";
-import {ShopMap} from "../../Component/ShopMap";
+import { ShopMap } from "../../Component/ShopMap";
 import { ShopItemSlider } from "./ShopItemSlider";
-
 
 export const Shoppage = () => {
   return (
     <Box w="80%">
       <Nav />
-      <BreadCrumb />
+      <BreadCrumb
+        Category="Cafa And Resturent"
+        City="Kathmandu"
+        Area="Balauj"
+        Street="Balajuhight"
+      />
       <Box m="5rem" color={"white"}>
         <Center fontSize={"3xl"} as="b">
           Sandar Cafa and Bakari
@@ -90,13 +94,29 @@ export const Shoppage = () => {
             </Text>
           </Box>
         </Box>
+        <Box fontSize={"3xl"} as="b" m={"3rem"}>
+          <Center>Service Provide</Center>
+          <Box
+            bg="#f3ebeb"
+            borderRadius={"3rem"}
+            color="black"
+            fontSize={"1rem"}
+          >
+            <Text p="3rem">
+              Bakary Item : Cake, Brouni, Dunote, Crosan, Bread, Drink Type :
+              Coffee, Cold Drinks, Milk Tea, Black Tea
+            </Text>
+          </Box>
+        </Box>
       </Box>
-      <ShopMap/>
+
       <Box m="5rem">
         <ShopItemSlider />
+      </Box>
+      <Box m="0 5rem 5rem 5rem">
+        <ShopMap />
       </Box>
       <Footer />
     </Box>
   );
 };
-

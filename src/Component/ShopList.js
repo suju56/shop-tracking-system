@@ -135,8 +135,10 @@ export const ShopList = () => {
           <GridItem textAlign="center">
             <Text> Service provide</Text>
             <Center p=".5rem" bg="#5d5547" borderRadius="1rem" m={"1rem"}>
-              <Text> Bakary Item : Cake, Brouni, Dunote, Crosan, Bread </Text>
-              <Text>Drink Type : Coffee, Cold Drinks, Milk Tea, Black Tea</Text>
+              <Text>
+                Bakary Item : Cake, Brouni, Dunote, Crosan, Bread Drink Type :
+                Coffee, Cold Drinks, Milk Tea, Black Tea
+              </Text>
             </Center>
           </GridItem>
         </Grid>
@@ -413,7 +415,6 @@ export const ShopList = () => {
           </GridItem>
         </Grid>
       </Link>
-      
     </Box>
   );
 };
