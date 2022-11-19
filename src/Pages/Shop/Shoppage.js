@@ -5,11 +5,9 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { BreadCrumb } from "../../Component/BreadCrump";
 import { Footer } from "../../Component/Footer";
 import { Nav } from "../../Component/Nav";
+import {ShopMap} from "../../Component/ShopMap";
 import { ShopItemSlider } from "./ShopItemSlider";
 
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
-import { render } from "react-dom";
-const position = [51.505, -0.09];
 
 export const Shoppage = () => {
   return (
@@ -96,6 +94,7 @@ export const Shoppage = () => {
       <Box m="5rem">
         <ShopItemSlider />
       </Box>
+      <ShopMap/>
 
       <Footer />
     </Box>
