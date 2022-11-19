@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const Nav = () => {
   return (
     <Grid
-      templateColumns={"14fr 2fr 2fr 1fr"}
+      templateColumns={"12fr 2fr 2fr 2fr 1fr"}
       textColor="white"
       mt=".5rem"
       mb=".5rem"
@@ -23,11 +23,13 @@ export const Nav = () => {
           <Text mt="-1.5rem"> Search</Text>
         </Link>
       </Box>
+      <Link to="/search-shop">
+        <Text mt=".7rem"> Catogery</Text>
+      </Link>
       <Link to="/about-us">
         <Box mt=".7rem"> About Us</Box>
       </Link>
-
-      <Link to="/register" >
+      <Link to="/register">
         <Flex mt=".7rem">
           <Box mt=".2rem">
             <AiOutlineUsergroupAdd size={20} />
@@ -35,7 +37,7 @@ export const Nav = () => {
           SignUp
         </Flex>
       </Link>
-      <Link  to="/log-in">
+      <Link to="/log-in">
         <Flex mt=".7rem">
           <Box mt=".2rem">
             <AiOutlineUser size={20} />

@@ -40,13 +40,19 @@ function App() {
             <Route path="/Shop-category" element={<Shopwithcateg />} />
             <Route path="/Shop-Page" element={<Shoppage />} />
 
+            {/* user */}
+            
             <Route path="/log-in" element={<LogIn />} />
             <Route path="/register" element={<Register />} />
             <Route path="/profile-user" element={<ProfileUser />} />
             <Route path="/profile-favourate" element={<Favourate />} />
 
+            {/* shopowner */}
+
             <Route path="/profile-service-provider" element={<ServiceProfile />} />
             <Route path="/shop-detail" element={<ShopDetail />} />
+            
+            {/* Admin */}
 
           </Routes>
         </Container>

@@ -9,12 +9,8 @@ export const Searchshop = () => {
     <Box>
       <Nav />
       <Box>
-        <Center fontSize={"3xl"} as="b" color={"white"}>
-          Our Shop category
-        </Center>
-        <Catogery/>
+        <Catogery />
       </Box>
-
       <Footer />
     </Box>
   );

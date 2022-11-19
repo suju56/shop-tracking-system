@@ -14,13 +14,16 @@ export const Home = () => {
     <Box>
       <Nav />
       <HomeBoby />
-      <Link to="/Shop-category"><Search placeholderforSearch="Choose category"/></Link>
-      
+      <Link to="/Shop-category">
+        <Search placeholderforSearch="Choose category" />
+      </Link>
       <Catogery />
-      <Morebotton morebutton="Click Hear For More"/>
+      <Link to="/search-shop">
+        <Morebotton morebutton="Click Hear For More" />{" "}
+      </Link>
       <Box bg="#8eb4b7" borderRadius="8rem" m="5rem 0">
         <Center p="2rem">
-        <Image
+          <Image
             alt="map"
             src={process.env.PUBLIC_URL + "/shopping.png"}
             h="16rem"
@@ -28,11 +31,11 @@ export const Home = () => {
             mr={"3rem"}
           />
           <Image
-          alt="map"
-          src={process.env.PUBLIC_URL + "/map.jpg"}
-          h="20rem"
-          w="14rem"
-        />
+            alt="map"
+            src={process.env.PUBLIC_URL + "/map.jpg"}
+            h="20rem"
+            w="14rem"
+          />
           <Image
             alt="map"
             src={process.env.PUBLIC_URL + "/shopping2.png"}
@@ -41,8 +44,8 @@ export const Home = () => {
             ml={"3rem"}
           />
         </Center>
-        </Box>
-      <Footer/>
+      </Box>
+      <Footer />
     </Box>
   );
 };
