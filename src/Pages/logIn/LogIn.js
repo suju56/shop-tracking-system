@@ -30,9 +30,15 @@ export const LogIn = () => {
                 Log In as
               </Text>
               <Select placeholder="Choose to log in" mt={".5rem"} bg="gray.300">
-                <option value="option1"><Link to="/profile-user">User</Link></option>
-                <option value="option2">Shop Owner</option>
-                <option value="option2">Admin</option>
+                <option value="option1">
+                  <Link to="/profile-user">User</Link>
+                </option>
+                <option value="option1">
+                  <Link to="/profile-service-provider">Shop Owner</Link>
+                </option>
+                <option value="option1">
+                  <Link to="/admin-profile">Admin</Link>
+                </option>
               </Select>
             </Box>
             <InputField label="Email" type="text" inputId="Email" />

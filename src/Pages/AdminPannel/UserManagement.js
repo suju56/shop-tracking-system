@@ -48,7 +48,7 @@ export const UserManagement = () => {
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p9.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -57,7 +57,7 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "Sangha"
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 kala@gmail.com
@@ -73,14 +73,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                02
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Ram Shrestha
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p8.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -89,10 +89,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "Gorkha"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Ram@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -105,14 +105,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                03
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Sita Adhikari
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p7.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -121,10 +121,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "NarayanGhat"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Sita@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -137,14 +137,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                04
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Json Thapa
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p6.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -156,7 +156,7 @@ export const UserManagement = () => {
                 "Kathmandu"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Json@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -169,14 +169,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                05
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Rajina Bhatta
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p5.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -185,10 +185,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "Kailali"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Rajina@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -201,14 +201,45 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                06
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Sumana Amgain
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p4.jpg"}
+                  w="2.5rem"
+                  height="2.5rem"
+                  borderRadius="100%"
+                  objectFit="cover"
+                  cursor="pointer"
+                />
+              </Text>
+              <Text p=".5rem 0" mt="1rem">
+                "Ramachap"
+              </Text>
+              <Text p=".5rem 0" mt="1rem">
+              Sumana@gmail.com
+              </Text>
+              <Text p=".5rem 0" mt="1rem">
+                9876543210
+              </Text>
+              <Center>
+                <Link to="/admin-user-detail">
+                  <RiExternalLinkFill />
+                </Link>
+              </Center>
+              {/* // data */}
+              <Text p=".5rem 0" mt="1rem">
+                07
+              </Text>
+              <Text p=".5rem 0" mt="1rem">
+                Dhurba Aapagai
+              </Text>
+              <Text p=".5rem 0">
+                <Image
+                  src={process.env.PUBLIC_URL + "/Image/p3.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -220,7 +251,7 @@ export const UserManagement = () => {
                 "Kathmandu"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Dhurba@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -233,14 +264,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                08
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Dipson Pantha
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p2.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -249,10 +280,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "Gorkha"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Dipson@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -265,14 +296,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                09
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Shraya Joshi
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/p1.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -281,10 +312,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "Chitwan"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Shraya@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210
@@ -297,14 +328,14 @@ export const UserManagement = () => {
               </Center>
               {/* // data */}
               <Text p=".5rem 0" mt="1rem">
-                01
+                10
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
+                Hari Bhatta
               </Text>
               <Text p=".5rem 0">
                 <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                  src={process.env.PUBLIC_URL + "/Image/caf1.jpg"}
                   w="2.5rem"
                   height="2.5rem"
                   borderRadius="100%"
@@ -313,42 +344,10 @@ export const UserManagement = () => {
                 />
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
+                "pokhara"
               </Text>
               <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
-              </Text>
-              <Text p=".5rem 0" mt="1rem">
-                9876543210
-              </Text>
-              <Center>
-                <Link to="/admin-user-detail">
-                  {" "}
-                  <RiExternalLinkFill />
-                </Link>
-              </Center>
-              {/* // data */}
-              <Text p=".5rem 0" mt="1rem">
-                01
-              </Text>
-              <Text p=".5rem 0" mt="1rem">
-                Kalasha Bhatta
-              </Text>
-              <Text p=".5rem 0">
-                <Image
-                  src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
-                  w="2.5rem"
-                  height="2.5rem"
-                  borderRadius="100%"
-                  objectFit="cover"
-                  cursor="pointer"
-                />
-              </Text>
-              <Text p=".5rem 0" mt="1rem">
-                "Kathmandu"
-              </Text>
-              <Text p=".5rem 0" mt="1rem">
-                kala@gmail.com
+              Hari@gmail.com
               </Text>
               <Text p=".5rem 0" mt="1rem">
                 9876543210

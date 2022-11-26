@@ -8,7 +8,7 @@ import "./App.css";
 
 import { Home } from "./Pages/Home/Home";
 import { LogIn } from "./Pages/logIn/LogIn";
-import { Searchshop } from "./Pages/Category/Category";
+import { Searchshop } from "./Pages/Category/CategoryPage";
 import { AboutUs } from "./Pages/Aboutus/AboutUs";
 import { PagWithCatLoc } from "./Pages/PagewithCategory/PagWithCatLoc";
 import { SearchPageWithcateg } from "./Pages/PagewithCategory/SearchPageWithcateg";
@@ -22,6 +22,7 @@ import { AdminProfile } from "./Pages/Admin/AdminProfile";
 import { UserManagement } from "./Pages/AdminPannel/UserManagement";
 import { AdminViewUserDet } from "./Pages/AdminPannel/AdminViewUserDet";
 import { AdminShopMana } from "./Pages/AdminPannel/AdminShopMana";
+import { AdminEditShopDetail } from "./Pages/AdminPannel/AdminEditShopDetail";
 
 function App() {
   const breakpoints = createBreakpoints({
@@ -62,6 +63,7 @@ function App() {
             <Route path="/admin-user-management" element={<UserManagement />} />
             <Route path="/admin-user-detail" element={<AdminViewUserDet />} />
             <Route path="/admin-shop-management" element={<AdminShopMana />} />
+            <Route path="/admin-shop-edit-add" element={<AdminEditShopDetail />} />
 
           </Routes>
         </Container>

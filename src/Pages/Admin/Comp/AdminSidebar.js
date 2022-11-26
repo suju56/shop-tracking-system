@@ -21,7 +21,7 @@ export const AdminSidebar = () => {
             <FaUserTie w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>User</Text>
           </Flex>
         </Link>
-        <Link to="#">
+        <Link to="/admin-shop-management">
           <Flex m={"2rem 2rem 2rem 0 "}>
             <GiShop w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Shop</Text>
           </Flex>

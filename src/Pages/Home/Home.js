@@ -14,9 +14,10 @@ export const Home = () => {
     <Box>
       <Nav />
       <HomeBoby />
-      <Link to="/Shop-category">
-        <Search placeholderforSearch="Choose category" />
-      </Link>
+      <Search
+        placeholderforSearch="Choose category"
+        searchto="/Shop-Catogery-Location"
+      />
       <Catogery />
       <Link to="/search-shop">
         <Morebotton morebutton="Click Hear For More" />{" "}

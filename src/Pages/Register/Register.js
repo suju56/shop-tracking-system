@@ -25,11 +25,12 @@ export const Register = () => {
           <GridItem p={"2rem"}>
             <Box>
               <Text color="white" as="b" mb=".5rem">
-                Log In as
+                Sign Up as
               </Text>
-              <Select placeholder="Choose to log in" mt={".5rem"} bg="gray.300">
+              <Select placeholder="Choose to Sign Up" mt={".5rem"} bg="gray.300">
                 <option value="option1">User</option>
                 <option value="option2">Shop Owner</option>
+                <option value="option2">Admin</option>
               </Select>
             </Box>
             <InputField label="Full Name" type="text" inputId="full_name" />
