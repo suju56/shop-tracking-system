@@ -4,7 +4,15 @@ import { AiFillCar } from "react-icons/ai";
 import { BiBookOpen, BiGift } from "react-icons/bi";
 import { BsCart4, BsFilm, BsHouseDoor } from "react-icons/bs";
 import { FaBiking, FaShoppingBasket, FaStore } from "react-icons/fa";
-import { GiCarWheel, GiClothesline, GiDoubleNecklace, GiLoincloth, GiRedCarpet, GiShop, GiSpartan } from "react-icons/gi";
+import {
+  GiCarWheel,
+  GiClothesline,
+  GiDoubleNecklace,
+  GiLoincloth,
+  GiRedCarpet,
+  GiShop,
+  GiSpartan,
+} from "react-icons/gi";
 import { GrCafeteria } from "react-icons/gr";
 import { FcShop } from "react-icons/fc";
 import { MdHardware, MdSmartToy } from "react-icons/md";
@@ -55,7 +63,7 @@ export const Catogery = () => {
             </Box>
 
             <Text p=".5rem" fontSize="1rem" as="b">
-             Vehicle Shop
+              Vehicle Shop
             </Text>
           </Center>
         </Link>
@@ -66,7 +74,7 @@ export const Catogery = () => {
             </Box>
 
             <Text p=".5rem" fontSize="1rem" as="b">
-              Cafa and Resturent
+              <Link to="/Shop-Catogery-Location">Cafa and Resturent</Link>
             </Text>
           </Center>
         </Link>
@@ -165,7 +173,7 @@ export const Catogery = () => {
             </Box>
 
             <Text p=".5rem" fontSize="1rem" as="b">
-             Jwelory Shop
+              Jwelory Shop
             </Text>
           </Center>
         </Link>
@@ -198,7 +206,7 @@ export const Catogery = () => {
             </Box>
 
             <Text p=".5rem" fontSize="1rem" as="b">
-             Mechanic Shop
+              Mechanic Shop
             </Text>
           </Center>
         </Link>
@@ -209,7 +217,7 @@ export const Catogery = () => {
             </Box>
 
             <Text p=".5rem" fontSize="1rem" as="b">
-             Hardware shop
+              Hardware shop
             </Text>
           </Center>
         </Link>

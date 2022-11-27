@@ -21,9 +21,9 @@ const persistedReducerCart = persistReducer(persistConfig, cartReducer);
 
 export default configureStore({
   reducer: {
-    //   categories: categoriesReducer,
+      // categories: categoriesReducer,
     //   product: productReducer,
-    //   login_signup: persistedReducerLogin_signup,
+      // login_signup: persistedReducerLogin_signup,
     //   profile: profileReducer,
     //   cart: persistedReducerCart,
     //   footers: footerReducer,

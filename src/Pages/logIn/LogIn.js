@@ -11,18 +11,24 @@ export const LogIn = () => {
     <Box w="82%" p={"2rem"}>
       <Nav />
       <Center color={"white"} fontSize={"3xl"} as="b" p={"2rem"}>
-        Sign In
+        {/* // reminder */}
+        <Link to="/admin-profile"> Sign In </Link>
+        {/* // reminder */}
       </Center>
       <Box bg="#453737" borderRadius={"3rem"} m={"3rem"}>
         <Grid templateColumns="1fr 1fr">
           <Center>
-            <Image
-              alt="sale"
-              src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
-              p="2rem"
-              w={"25rem"}
-              h={"20rem"}
-            />
+            {/* // reminder */}
+            <Link to="/profile-service-provider">
+              <Image
+                alt="sale"
+                src={process.env.PUBLIC_URL + "/Image/LogIn.png"}
+                p="2rem"
+                w={"25rem"}
+                h={"20rem"}
+              />
+            </Link>
+            {/* // reminder */}
           </Center>
           <GridItem p={"2rem"}>
             <Box>

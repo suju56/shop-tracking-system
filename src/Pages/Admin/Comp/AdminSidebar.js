@@ -11,7 +11,7 @@ export const AdminSidebar = () => {
     <Box>
       <HamburgerIcon />
       <Box>
-        <Link to="/profile-user">
+        <Link to="/admin-profile">
           <Flex m={"2rem 2rem 2rem 0 "}>
             <CgProfile w="1rem" /> <Text m={"-0.2rem 0 0 .5rem"}>Profile</Text>
           </Flex>
